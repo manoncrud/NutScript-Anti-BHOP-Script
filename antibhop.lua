@@ -14,4 +14,7 @@ hook.Add( "CreateMove", "Stamina:DisableJumpKey", function( input )
 	end
 end )
 
+--[[ Put antibhop.lua in the /plugins/ folder in your schema!--]] 
+
+
 --[[ https://team.paragonservers.com/pingers--]] 
