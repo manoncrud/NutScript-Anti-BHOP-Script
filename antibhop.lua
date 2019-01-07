@@ -1,6 +1,6 @@
 PLUGIN.name = "Anti-Bunny Hop"
-PLUGIN.author = "Pingers"
-PLUGIN.desc = "Stop people from constantly jumping on servers"
+PLUGIN.author = "SmithyStanley"
+PLUGIN.desc = "Stop nobheads from bhopping on servers"
 --This time, ego free!
 
 hook.Add( "CreateMove", "Stamina:DisableJumpKey", function( input )
@@ -17,4 +17,4 @@ end )
 --[[ Put antibhop.lua in the /plugins/ folder in your schema!--]] 
 
 
---[[ https://team.paragonservers.com/pingers--]] 
+--[[ https://smithystanley.github.io--]] 
