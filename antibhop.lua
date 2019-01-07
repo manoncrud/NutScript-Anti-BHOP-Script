@@ -1,7 +1,7 @@
 PLUGIN.name = "Anti-Bunny Hop"
 PLUGIN.author = "SmithyStanley"
 PLUGIN.desc = "Stop nobheads from bhopping on servers"
---This time, ego free!
+
 
 hook.Add( "CreateMove", "Stamina:DisableJumpKey", function( input )
 	if ( LocalPlayer( ):IsAdmin( ) ) then 
